@@ -5,6 +5,7 @@ execute pathogen#infect()
 set nocompatible
 
 " number the lines.
+set number
 set relativenumber
 
 " show location of cursor using a horizontal line.
