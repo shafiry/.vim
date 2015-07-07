@@ -8,9 +8,6 @@ set nocompatible
 set number
 set relativenumber
 
-" show location of cursor using a horizontal line.
-" set cursorline
-
 " keep cursor in the middle of the screen while scrolling up and down.
 set scrolloff=999
 
@@ -26,7 +23,7 @@ map <f6> :w <CR>:!bash % <CR>
 " turn on syntax hightlighting.
 set syntax=on
 
-" Below this was put by me
+" Needs comments
 set shiftwidth=2
 set softtabstop=2
 set autoindent 
@@ -35,7 +32,7 @@ syntax on
 set clipboard=unnamed
 set backspace=indent,eol,start
 
-"syntastic thing
+" syntastic things
 let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_scss_checkers      = ['scss_lint']
 let g:syntastic_ruby_checkers      = ['rubocop']
