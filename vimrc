@@ -1,6 +1,17 @@
 filetype plugin on
 filetype indent on
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-repeat'
+Plug 'gabesoft/vim-ags'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-surround'
+
+call plug#end()
+
+
 " do not make vim compatible with vi.
 set nocompatible
 
