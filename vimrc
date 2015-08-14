@@ -8,6 +8,7 @@ Plug 'tpope/vim-repeat'
 Plug 'gabesoft/vim-ags'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -31,8 +32,14 @@ set wildmode=list:longest
 " run the Bash script by pressing F6 without leaving VIM.
 map <f6> :w <CR>:!bash % <CR>
 
+" mouse events
+set mouse=a
+
 " turn on syntax hightlighting.
 set syntax=on
+
+" put title at the top of the screen
+set title
 
 " Needs comments
 set shiftwidth=2
